@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/konomi-cube-mcp",
+  "version": "1.0.0",
+  "description": "konomi-cube MCP server · stdio wrapper around @ai-native-solutions/konomi-cube-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "konomi-cube-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["konomi-cube", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/konomi-cube-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/konomi-cube-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
